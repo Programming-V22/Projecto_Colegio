@@ -1,0 +1,64 @@
+<DOCTYPE html>
+    <html lang="es">
+    <head>
+
+        <title></title>
+        <meta charset="utf-8">
+        <<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css3/estilodegaleria.css">
+    </head>
+    <body>
+    
+    
+
+<h1>Galería de imágenes con efecto lightbox solo con CSS</h1>
+    
+    <ul class="galeria">
+        <li><a href="#img1"><img src="images/comarapa.jpg"></a></li>
+        <li><a href="#img2"><img src="images/comarapaa.jpg"></a></li>
+        <li><a href="#img3"><img src="images/frutillav1.jpg"></a></li>
+        <li><a href="#img4"><img src="images/frutillav2.jpg"></a></li>
+        
+    </ul>
+
+    <div class="modal" id="img1">
+        <h3>Paisaje 1</h3>
+        <div class="imagen">
+            <a href="#img4">&#60;</a>
+            <a href="#img2"><img src="images/comarapa.jpg"></a>
+            <a href="#img2">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+    
+    <div class="modal" id="img2">
+        <h3>Paisaje 2</h3>
+        <div class="imagen">
+            <a href="#img1">&#60;</a>
+            <a href="#img3"><img src="images/comarapaa.jpg"></a>
+            <a href="#img3">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+    
+    <div class="modal" id="img3">
+        <h3>Paisaje 3</h3>
+        <div class="imagen">
+            <a href="#img2">&#60;</a>
+            <a href="#img4"><img src="images/frutillav1.jpg"></a>
+            <a href="#img4">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+    
+    <div class="modal" id="img4">
+        <h3>Paisaje 4</h3>
+        <div class="imagen">
+            <a href="#img3">&#60;</a>
+            <a href="#img1"><img src="images/frutillav2.jpg"></a>
+            <a href="#img1">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+    </body>
+    </html>
